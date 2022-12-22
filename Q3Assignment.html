@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+  
+}
+
+</style>
+<body>
+    <form name="myForm" action="#" >
+<table style="width:100%">
+  <tr>
+    <th colspan="2" >XYZ online Delivery</th>
+    </tr>
+    <tr>
+        <th colspan="2">Personal Details</th>
+        </tr>
+        <tr>
+            <td style="width: 5%;">Firstname<span style="color: red;">*</span></td>
+            <td><input type="text" id="Firstname" style="background-color: rgb(231, 179, 83);" required></td>
+        </tr>
+        <tr>
+            <td style="width: 5%;">Phone number<span style="color: red;">*</span></td>
+            <td><input type="text" id="Phone number" required></td>
+        </tr>
+        <tr>
+            <th colspan="2">Order prefernce</th>
+            </tr>
+            <tr>
+                <td>Size <span style="color: red;">*</span></td>
+                <td><input type="radio" id="Small" name="small" value="small">
+                    <label for="small">Small</label>
+                    <input type="radio" id="Medium" name="Medium" value="medium" checked >
+                    <label for="medium">Medium</label>
+                    <input type="radio" id="Large" name="Large" value="Large">
+                    <label for="Large">Large</label></td>
+              </tr>
+              <tr>
+                <td>Base</td>
+                <td><select id="Base" name="Base">
+                    <option value="PanPizza" >Pan Pizza</option>
+                    <option value="CheeseCrust" selected>Cheese Crust</option>
+                    <option value="ChickenStuffed" selected>Chicken Stuffed Crust</option>
+                    </select>
+                </td>
+              </tr>
+              <tr>
+                <td>Toppings</td>
+                <td><input type="checkbox" id="Cheese" name="Cheese" value="Cheese" >
+                    <label for="Cheese">Cheese</label>
+                    <input type="checkbox" id="Olives" name="Olives" value="Olives" checked>
+                    <label for="Olives">Olives</label>
+                    <input type="checkbox" id="Tomotoes" name="Tomotoes" value="Tomotoes" checked>
+                    <label for="Tomotoes">Tomotoes</label>
+                    <input type="checkbox" id="Capsicum" name="Capsicum" value="Capsicum" >
+                    <label for="Capsicum">Capsicum</label>
+                    <input type="checkbox" id="Jalapones" name="Jalapones" value="Jalapones" checked>
+                    <label for="Jalapones">Jalapones</label>
+                    <input type="checkbox" id="Mushrooms" name="Mushrooms" value="Mushrooms" >
+                    <label for="Olives">Mushrooms</label>
+                    <input type="checkbox" id="Onion" name="Onion" value="Onion" checked>
+                    <label for="Onion">Onion</label>
+                </td>
+              </tr>
+              <tr>
+                <td>Additinal details</td>
+                <td > <input type="text" id="Details"></td>
+                   </tr>
+                   <tr>
+                    <td colspan="2" style="text-align: center;">Confirm details are proceed to pay?
+                    <input type="radio" id="yes" name="yes" value="yes" checked/>
+                        <label for="yes">Yes</label>
+                        <input type="radio" id="No" name="No" value="No"/>
+                        <label for="No">No</label>
+                    </td>
+                       </tr>
+                       <tr>
+                        <td colspan="2" style="text-align: center;">
+                            <input type="Submit" id="Submit" name="Submit" value="Submit"/>
+                    </tr>
+</form>
+  
+  
+  
+</table>
+
+</body>
+</html>
+

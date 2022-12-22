@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+
+</style>
+<body>
+    <form name="myForm" action="#" >
+<table style="width:100%">
+  <tr>
+    <th colspan='3'>XYZ registarion form</th>
+    <tr>
+        <td rowspan="4" style="width: 20%;">Personal detials</td>
+        <td style="width: 20%;">Firstname<span style="color: red;">*</span></td>
+        <td><input type="text" id="Firstname" style="background-color: rgb(231, 179, 83);" required="true"></td>
+      </tr>
+      <tr>
+        <td>Lastname</td>
+        <td><input type="text" id="Lastname" style="background-color: rgb(231, 179, 83);" required="true"></td>
+      </tr>
+      <tr>
+        <td>DOB<span style="color: red;">*</span></td>
+        <td><input type="text" id="DOB" required="true"></td></td>
+      </tr>
+      <tr>
+        <td>Gender <span style="color: red;">*</span></td>
+        <td><input type="radio" id="Male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="female">Female</label>
+            <input type="radio" id="Other" name="gender" value="Other">
+            <label for="Other">Other</label></td>
+      </tr>
+      <tr>
+        <td rowspan="4">Academic Detils</td>
+        <td>Degrees</td>
+        <td><select id="Degree" name="Degree">
+            <option value="Masters" >Batchlors</option>
+            <option value="Gradutaion" selected>Masters</option>
+            <option value="Intermediate">Doctorate</option>
+            <option value="SSC">SSC</option>
+          </select></td>
+      </tr>
+      <tr>
+        <td>Specialization</td>
+        <td><input type="text" id="Specialization" name="English Literature" value="Specialization" Required="true"></td>
+      </tr> 
+      <tr>
+        <td>Mode of Instruction<span style="color: red;">*</span></td>
+        <td><input type="checkbox" id="Classroom" name="Classrrom" value="Classrrom" checked>
+            <label for="Classrrom">Classrrom</label>
+            <input type="checkbox" id="Online" name="Online" value="Online">
+            <label for="Online">Online</label>
+        </td>
+      </tr>
+      <tr>
+        <td>Current GPA<span style="color: red;">*</span></td>
+        <td><input type="text" id="GPA" Required="true"></td>
+      </tr>  
+      <tr>
+        <td rowspan="2">Contact Details</td>
+        <td>Phone Number<span style="color: red;">*</span></td>
+        <td><input type="text" id="Phine number" style="background-color:rgb(231, 179, 83) ;" Required="true"></td>
+      </tr>
+      <tr>
+        <td>Address<span style="color: red;">*</span></td>
+        <td>
+            <address Required="true">
+               
+                </address>
+        </td>
+      </tr> 
+     
+      <tr>
+          <td colspan="3" style="text-align: center;">I assuered all details entered are correct
+            <input type="checkbox" id="Yes" name="Yes" value="Yes" checked>
+            <label for="Yes">Yes</label></td>
+      </tr>
+      <tr>
+        <td colspan="3" style="text-align: center;">
+            <input type="Submit" id="Submit" name="Submit" value="Submit"/>
+    </tr>
+</form>
+  
+  
+  
+</table>
+
+</body>
+</html>
+

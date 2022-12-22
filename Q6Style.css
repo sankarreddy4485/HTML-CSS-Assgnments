@@ -1,0 +1,64 @@
+body{
+    background-color: aqua;
+}
+/* Contect-1 css start */
+.content{
+    display: flex;
+justify-content: left;
+align-items: center;
+margin: 3rem;
+}
+.content-1{
+    background-color: #fff;
+width: 60%;
+height: 100vh;
+color: #333;
+  
+    
+}
+
+.form-div{
+    display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin-left: 3rem;
+}
+.form-elements{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+width: 50%;
+margin-bottom: 1rem;
+}
+.form-elements label{
+    margin-bottom: 1rem;
+}
+.form-elements input{
+   width: 90%;
+}
+
+.primary-btn{
+    background-color: blue;
+    padding: 1rem 3rem;
+    color: white;
+    border-radius: 30%;
+   
+}
+/* Content css end */
+/* Content-2 start */
+.content-2{
+    background-color: blue;
+width: 40%;
+height: 100vh;
+color: #fff;
+}
+.section-3{
+    margin:0 3rem 0 3rem;
+   
+}
+table tr td{
+   margin-left: 1px;
+    padding:1rem;
+    font-size: 15px;
+}
